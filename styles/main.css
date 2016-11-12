@@ -1,0 +1,51 @@
+body {
+    background: #d3ffce;
+    color: #484446;
+    font-family: rockwell, Arial, sans-serif;
+    font-size: 150%;
+    margin: 0; /* keep this */
+}
+
+#review {
+  width: 800px;
+  background: #ff6347;
+  color: #000;
+  margin: 50px auto;
+  padding: 20px 40px;
+}
+
+#concertPhoto {
+  display: block;
+  margin: auto;
+}
+
+.albumCovers {
+  background: #8090a1;
+  margin: 60px 60px;
+  padding: 20px 40px;
+}
+
+#topTitle, #words{
+text-align: center;
+  margin: 10px 60px;
+padding-top: 10px;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 20px 40px;
+  }
+
+  @media (max-width: 700px) {
+    body {border-width: 0;}
+    #review {width: 80%;}
+    #concertPhoto {width: 100%;
+      margin-top: 0;
+      margin-left: 0;}
+    .albumCovers {
+      margin: 60px 60px;
+      padding: 20px 40px;}
+    #songs {margin-top: 0;}
+  }
